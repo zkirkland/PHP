@@ -1,0 +1,36 @@
+#appcontainer {
+    max-height: 100%;
+    max-width: 500px;
+}
+
+#listBox {
+    padding: 15px 0 15px 0;
+    max-height: 100%;
+    overflow: auto;
+}
+
+#input {
+    position: relative;
+}
+
+#list li a {
+    color: white;
+    text-decoration: none;
+}
+
+#list li:hover {
+    background-color: #537d7d;
+    color: white;
+}
+
+#list li:hover .close-button{
+    background-color: #003e3e;
+}
+
+.close-button {
+    display: block;
+    float:right;
+    border: none;
+    border-radius: 25%;
+    background-color: #00d4d4;
+}
